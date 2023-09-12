@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
+
+    body {
+        font-family: "Raleway";
+    }
+    h1, .form input, .reponse{
+        text-align: center;
+    }
+    .form input{
+        margin-left: 0.5em;
+    }
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2em;
+        border-radius: 2em;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .reponse{
+        width: 100%;
+        padding-top: 1em;
+        color: grey;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
